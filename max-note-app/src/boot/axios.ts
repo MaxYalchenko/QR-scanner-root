@@ -2,7 +2,7 @@ import { boot } from 'quasar/wrappers';
 import axios from 'axios';
 
 const api = axios.create({
-  //Можно localhost, но я делал через туннелирование
+  //Вставьте свой cloudflared URL
   baseURL: 'https://health-compact-intend-hamilton.trycloudflare.com/api',
 });
 
