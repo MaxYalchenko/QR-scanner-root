@@ -5,9 +5,9 @@
       <q-toolbar>
         <q-toolbar-title>
           <q-avatar>
-            <img src="https://avatars.mds.yandex.net/get-shedevrum/11473245/img_bc4f2cb60aec11efbb203ac3123cbc49/orig">
+            <img src="http://qrcoder.ru/code/?%A9+2026+Maxim+Yalchenko&4&0">
           </q-avatar>
-          Заметки
+          QR Сканер / Генератор
         </q-toolbar-title>
       </q-toolbar>
     </q-header>

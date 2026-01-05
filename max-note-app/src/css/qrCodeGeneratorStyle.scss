@@ -1,0 +1,102 @@
+.qr-generator-container {
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  gap: 5px;
+}
+
+input,
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-grow: 1;
+}
+
+.generate-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.qr-result-card {
+  margin-top: 20px;
+  padding: 15px;
+  background: white;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.label-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+.qr-wrapper {
+  padding: 5px;
+}
+
+.status-badge {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-badge.ok {
+  color: green;
+}
+
+.status-badge.fail {
+  color: red;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.actions button {
+  padding: 6px 10px;
+  border: 1px solid #000;
+  background: white;
+  cursor: pointer;
+}
+
+#qr-to-print {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  //Белый фон для PDF
+  background: white;
+ 
+}

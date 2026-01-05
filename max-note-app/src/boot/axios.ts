@@ -2,7 +2,8 @@ import { boot } from 'quasar/wrappers';
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://pants-renewal-aggregate-membership.trycloudflare.com/api',
+  //Можно localhost, но я делал через туннелирование
+  baseURL: 'https://health-compact-intend-hamilton.trycloudflare.com/api',
 });
 
 export default boot(({ app }) => {
@@ -10,3 +11,4 @@ export default boot(({ app }) => {
 });
 
 export { api };
+

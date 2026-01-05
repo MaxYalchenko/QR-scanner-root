@@ -16,8 +16,8 @@
 
 <script lang="ts">
     export default {
-        props: {    
-            title: String, 
+        props: {
+            title: String,
             description: String
         }
     }

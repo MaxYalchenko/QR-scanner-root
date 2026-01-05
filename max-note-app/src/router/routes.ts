@@ -5,15 +5,14 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') },
-      { path: 'new', component: () => import('pages/NewPage.vue') },
-      { path: 'note/:id', component: () => import('pages/NotePage.vue') }
+      { path: 'auth', component: () => import('pages/AuthorizationPage.vue') },
+      { path: '', component: () => import('pages/HomePage.vue') },
+      { path: 'qr-scanner', component: () => import('pages/QrScannerPage.vue') },
+      { path: 'qr-generator', component: () => import('pages/QrCodeGenerator.vue') }
 
     ]
   },
 
-  // Always leave this as last one,
-  // but you can also remove it
   {
     path: '/:catchAll(.*)*',
     component: () => import('pages/ErrorNotFound.vue'),
