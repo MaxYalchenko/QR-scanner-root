@@ -70,3 +70,5 @@ cd <имя_папки_проекта>
 <uses-feature android:name="android.hardware.camera" android:required="false" />
 ```
 2. **Запускаем на эмуляторе или на физическом устройстве, все должно работать :)**
+   
+    ![Demo](./assets/qrvideo.gif)
