@@ -45,7 +45,7 @@ cd <имя_папки_проекта>
    ```
 5. (По желанию) Запустите туннель Сloudflared
    ```bash
-   tunnel --url http://localhost:8082
+   cloudflared tunnel --url http://localhost:8082
    ```
 7. Скопируйте URL туннеля в max-note-app/boot/axios.ts (В baseURL оставьте перед вашей ссылкой /api)
 8. Запустите клиент в режиме dev или build
